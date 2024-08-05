@@ -47,3 +47,18 @@ h1 {
   color: #7e4333;
   padding: 20px;
 }
+main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.img_1{
+  width: 100%;
+  padding: 20px;
+}
+.receta_1{
+  box-sizing: border-box;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 10px;
+}
