@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  width: 99%;
+  background-color: #255538;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.bitcook{
+  width: 100px;
+}
+.send,
+.copyright {
+ text-align: end;
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  margin:0px;
+  
+}
+body {
+  background-color: #f3e5d8;
+}
+
+footer {
+  width: 99%;
+  background-color: #255538;
+  padding: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 10px;
+  
+}
+
+.photo_1 {
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 150;
+  font-size: 50px;
+  color: #7e4333;
+}
+
+p{
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+
+  width: 100%;
+}
+ul{
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  margin: 5px;
+  width: 100%;
+} 
+
+h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 150;
+  font-size: 40px;
+  color: #7e4333;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.ingredientes {
+
+  box-sizing: border-box;
+  background-color: #f3e5d8;
+  width: 80%;
+  margin: 40px;
+}
+
+.tabla_nutricional {
+  width: 90%; 
+  padding: 10%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.mas_recetas {
+  width: 90%; 
+  padding: 10%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+h3 {
+  font-family: "M Serif Display", serif;
+  color: #7e4333;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: "M Serif Display", serif;
+  color: #7e4333;
+  font-size: 30px;
+  font-weight: 150;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  border-collapse: collapse;
+  border-bottom: solid;
+  width: 300px;
+  padding: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+.cantidad {
+  text-align: right;
+  border-collapse: collapse;
+}
+.img-tst {
+  width: 100px;
+}
+.otras_recetas {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .photo_1 {
+    width: 100%;
+  }
+  h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 150;
+    font-size: 30px;
+    color: #7e4333;
+  }
+
+  p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    width: 100%;
+  }
+  ul {
+    font-size: 15px;
+  }
+  .ingredientes {
+    width: 80%;
+    margin: 10px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  
+  th,
+  td{
+    font-size:15px;
+}
+}
+@media (max-width: 480px) {
+  main {
+    display: block;
+       }
+
+  .photo_1 {
+    width: 100%;
+  }
+  h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 150;
+    font-size: 30px;
+    color: #7e4333;
+  }
+
+  p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+   
+  }
+  ul {
+    font-size: 15px;
+  }
+  .ingredientes {
+    width: 80%;
+    margin: 10px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .tabla_nutricional {  
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    position:static;
+    margin-top: 10px;
+  }
+  .mas_recetas {
+    padding:0px;
+    margin:0px;
+    width: 100%;
+    position:static;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  article{
+    margin-top:10px;
+  }
+  th,
+  td{
+    font-size:15px;
+  }
+}

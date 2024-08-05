@@ -50,7 +50,7 @@ h1 {
 main{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
 }
 .img_1{
   width: 100%;
@@ -61,4 +61,40 @@ main{
 background-color: #ffffff;
 margin: 10px;
 border-radius: 10px;
+}
+.receta_2{
+  box-sizing: border-box;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 10px;
+}
+.receta_3{
+  box-sizing: border-box;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 10px;
+}
+.receta_4{
+  box-sizing: border-box;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 10px;
+}
+.receta_5{
+  box-sizing: border-box;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 10px;
+}
+.receta_6{
+  box-sizing: border-box;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 10px;
+}
+p {
+  font-family: "DM Sans", sans-serif;
+}
+h2 {
+  font-family: "DM Serif Display", serif;
 }
