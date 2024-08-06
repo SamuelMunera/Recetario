@@ -47,50 +47,50 @@ h1 {
   color: #7e4333;
   padding: 20px;
 }
-main{
-  display:grid;
+main {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
 }
-.img_1{
+.img_1 {
   width: 100%;
   padding: 20px;
 }
-.receta_1{
+.receta_1 {
   box-sizing: border-box;
-background-color: #ffffff;
-margin: 10px;
-border-radius: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
 }
-.receta_2{
+.receta_2 {
   box-sizing: border-box;
-background-color: #ffffff;
-margin: 10px;
-border-radius: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
 }
-.receta_3{
+.receta_3 {
   box-sizing: border-box;
-background-color: #ffffff;
-margin: 10px;
-border-radius: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
 }
-.receta_4{
+.receta_4 {
   box-sizing: border-box;
-background-color: #ffffff;
-margin: 10px;
-border-radius: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
 }
-.receta_5{
+.receta_5 {
   box-sizing: border-box;
-background-color: #ffffff;
-margin: 10px;
-border-radius: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
 }
-.receta_6{
+.receta_6 {
   box-sizing: border-box;
-background-color: #ffffff;
-margin: 10px;
-border-radius: 10px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
 }
 p {
   font-family: "DM Sans", sans-serif;
@@ -98,3 +98,14 @@ p {
 h2 {
   font-family: "DM Serif Display", serif;
 }
+
+article a h2 {
+  text-decoration: none;
+  color:#7e4333;
+ }
+
+article a p {text-decoration: none;
+color: black;
+border-buttom: none;}
+
+article a {text-decoration: none;}
