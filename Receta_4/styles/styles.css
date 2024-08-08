@@ -8,7 +8,7 @@
 }
 
 header {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;
@@ -28,12 +28,15 @@ header {
   margin:0px;
   
 }
+a{
+  text-decoration: none;
+}
 body {
   background-color: #f3e5d8;
 }
 
 footer {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;

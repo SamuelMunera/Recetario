@@ -8,7 +8,7 @@
 }
 
 header {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;
@@ -31,9 +31,9 @@ header {
 body {
   background-color: #f3e5d8;
 }
-
+a{text-decoration: none;}
 footer {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;

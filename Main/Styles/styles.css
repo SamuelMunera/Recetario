@@ -113,6 +113,9 @@ article a p {
 article a {
   text-decoration: none;
 }
+a{
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   main {

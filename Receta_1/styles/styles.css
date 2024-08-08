@@ -8,7 +8,7 @@
 }
 
 header {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;
@@ -16,24 +16,23 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.bitcook{
+.bitcook {
   width: 100px;
 }
 .send,
 .copyright {
- text-align: end;
+  text-align: end;
   font-family: "DM Sans", sans-serif;
   color: #ffffff;
   font-size: 15px;
-  margin:0px;
-  
+  margin: 0px;
 }
 body {
   background-color: #f3e5d8;
 }
 
 footer {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;
@@ -47,7 +46,6 @@ article {
   box-sizing: border-box;
   width: 100%;
   margin: 10px;
-  
 }
 
 .photo_1 {
@@ -63,18 +61,18 @@ h1 {
   color: #7e4333;
 }
 
-p{
+p {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
 
   width: 100%;
 }
-ul{
+ul {
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
   margin: 5px;
   width: 100%;
-} 
+}
 
 h2 {
   font-family: "DM Serif Display", serif;
@@ -91,7 +89,6 @@ main {
 }
 
 .ingredientes {
-
   box-sizing: border-box;
   background-color: #f3e5d8;
   width: 80%;
@@ -99,7 +96,7 @@ main {
 }
 
 .tabla_nutricional {
-  width: 90%; 
+  width: 90%;
   padding: 10%;
   box-sizing: border-box;
   background-color: #ffffff;
@@ -107,7 +104,7 @@ main {
 }
 
 .mas_recetas {
-  width: 90%; 
+  width: 90%;
   padding: 10%;
   box-sizing: border-box;
   background-color: #ffffff;
@@ -149,6 +146,9 @@ td {
   text-align: center;
   font-family: "DM Sans", sans-serif;
 }
+a{
+  text-decoration: none;
+}
 
 @media (max-width: 768px) {
   main {
@@ -183,16 +183,16 @@ td {
   h4 {
     font-size: 20px;
   }
-  
+
   th,
-  td{
-    font-size:15px;
-}
+  td {
+    font-size: 15px;
+  }
 }
 @media (max-width: 480px) {
   main {
     display: block;
-       }
+  }
 
   .photo_1 {
     width: 100%;
@@ -207,7 +207,6 @@ td {
   p {
     font-family: "DM Sans", sans-serif;
     font-size: 15px;
-   
   }
   ul {
     font-size: 15px;
@@ -222,26 +221,26 @@ td {
   h4 {
     font-size: 20px;
   }
-  .tabla_nutricional {  
+  .tabla_nutricional {
     width: 100%;
-    padding:0px;
-    margin:0px;
-    position:static;
+    padding: 0px;
+    margin: 0px;
+    position: static;
     margin-top: 10px;
   }
   .mas_recetas {
-    padding:0px;
-    margin:0px;
+    padding: 0px;
+    margin: 0px;
     width: 100%;
-    position:static;
+    position: static;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  article{
-    margin-top:10px;
+  article {
+    margin-top: 10px;
   }
   th,
-  td{
-    font-size:15px;
+  td {
+    font-size: 15px;
   }
 }
