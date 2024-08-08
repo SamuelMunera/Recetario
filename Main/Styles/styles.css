@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  width: 99%;
+  width: 100%;
   background-color: #255538;
   padding: 20px;
   margin-top: 5px;
@@ -31,7 +31,7 @@ header {
 
 footer {
   background-color: #255538;
-  width: 99%;
+  width: 100%;
   margin-bottom: 5px;
   padding: 20px;
   display: grid;
@@ -101,11 +101,54 @@ h2 {
 
 article a h2 {
   text-decoration: none;
-  color:#7e4333;
- }
+  color: #7e4333;
+}
 
-article a p {text-decoration: none;
-color: black;
-border-buttom: none;}
+article a p {
+  text-decoration: none;
+  color: black;
+  border-buttom: none;
+}
 
-article a {text-decoration: none;}
+article a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  h1 {
+    font-family: "DM Serif Display", serif;
+    font-weight: 150;
+    font-size: 30px;
+  }
+  p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+  }
+  h2 {font-size: 25px;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  article {
+    margin: 0px;
+  }
+  h1 {
+    
+    font-weight: 150;
+    font-size: 30px;
+  
+  }
+
+  p {
+    
+    font-size: 15px;
+  }
+}
