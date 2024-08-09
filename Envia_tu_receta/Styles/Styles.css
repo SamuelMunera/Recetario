@@ -59,10 +59,12 @@ main {
   margin-bottom: 5%;
 }
 button {
+  font-family: "DM Sans", sans-serif;
   width: 100px;
   background-color: #255538;
   margin-top: 10px;
   border-radius: 10px;
+  color:#ffffff;
   
 }
 p {

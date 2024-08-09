@@ -113,7 +113,7 @@ article a p {
 article a {
   text-decoration: none;
 }
-a{
+a {
   text-decoration: none;
 }
 
@@ -132,7 +132,8 @@ a{
     font-family: "DM Sans", sans-serif;
     font-size: 15px;
   }
-  h2 {font-size: 25px;
+  h2 {
+    font-size: 25px;
   }
 }
 @media (max-width: 480px) {
@@ -144,14 +145,11 @@ a{
     margin: 0px;
   }
   h1 {
-    
     font-weight: 150;
     font-size: 30px;
-  
   }
 
   p {
-    
     font-size: 15px;
   }
 }
