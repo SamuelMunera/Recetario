@@ -31,7 +31,8 @@ header {
 body {
   background-color: #f3e5d8;
 }
-a{text-decoration: none;}
+a{text-decoration: none;
+color: black;}
 footer {
   width: 100%;
   background-color: #255538;
